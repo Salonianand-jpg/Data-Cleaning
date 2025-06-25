@@ -1,34 +1,36 @@
 # Task-1 
-Steps to Clean the Data
-Load Raw Data: Open the marketing_campaign.csv file in Excel.
+This project involves cleaning the raw marketing campaign dataset (marketing_campaign.csv) for customer service analysis using MS Excel.
 
-Identify and Handle Missing Values:
+Steps to Clean the Data
+Load Raw Data
+Open the marketing_campaign.csv file in MS Excel.
+
+Handle Missing Values
 
 Use filters or Conditional Formatting to find missing data.
 
-Impute (e.g., use average/median) or remove rows with missing data.
+Impute missing values with average/median or add appropriate values.
 
-Add new value on place of missing value.
+Remove rows with missing data if necessary.
 
-Remove Duplicates:
+Remove Duplicates
 
-Go to Data > Remove Duplicates.
+Navigate to Data > Remove Duplicates.
 
-Remove duplicates based on columns like Customer ID, Ticket ID, or Request Date.
+Remove duplicates based on key columns like Customer ID, Ticket ID, or Request Date.
 
-Standardize Data:
+Standardize Data
 
-Ensure dates are properly formatted using Format Cells.
+Format date columns using Format Cells.
 
-Check that numeric columns are in the correct format (e.g., integer, decimal).
+Ensure numeric columns are set to correct formats (integer, decimal).
 
-Text Normalization:
+Text Normalization
 
 Use TRIM to remove extra spaces.
 
-Use UPPER, LOWER, or PROPER to standardize text case.
+Use UPPER(), LOWER(), or PROPER() functions to standardize text case.
 
-Save Cleaned Data:
-
-Save your cleaned file as customer service analysis.csv.
+Save Cleaned Data
+Save the cleaned dataset as customer_service_analysis.csv.
 
